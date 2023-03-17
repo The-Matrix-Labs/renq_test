@@ -54,7 +54,7 @@ const Win = () => {
     <hr></hr>
 
     <div className='section1_buy'>
-            <h2 className='heading_buy'>RemQ Finance</h2>
+            <h2 className='heading_buy'>RenQ Finance</h2>
             <div className='buttons_container button_container_win'>
             <button className='button'>WIN 250K</button>
             <button className='button'>JOIN PRESALE</button>

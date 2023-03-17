@@ -9,7 +9,7 @@ const Buystep = () => {
     <div className='container'>
     <div className='section_outer'>
         <div className='section1_buy'>
-            <h2 className='heading_buy'>RemQ Finance</h2>
+            <h2 className='heading_buy'>RenQ Finance</h2>
             <div className='buttons_container'>
             <button className='button'>WIN 250K</button>
             <button className='button'>JOIN PRESALE</button>
