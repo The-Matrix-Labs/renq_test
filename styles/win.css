@@ -1,0 +1,126 @@
+.gradient{
+    background: linear-gradient(180deg, #030B15 0%, #0B1D33 100%);
+    padding: 90px 0px;
+
+}
+
+.win_mainHeading{
+    margin-top: 0px;
+    font-size: 42px;
+}
+
+
+.iframe_gleam{
+    width: 100%;
+    width: 100%;
+    max-width: 540px;
+    min-width: 320px;
+    margin: 0 auto 20px;
+    position: relative; z-index: 1; visibility: visible; transform: scale(1); height: 1611px;
+    display: block;
+    float: none;
+    background: white;}
+
+.outer_container{
+    display: flex;
+    justify-content: space-around;
+    gap:40px;
+    padding-top: 60px;
+    margin-bottom: 30px;
+}
+
+.left_win, .right_win{
+    width: 50%;
+}
+
+.right_win{
+    background: #0B1D33;
+    padding: 30px;
+    
+    border-radius: 20px;
+}
+
+.win_image{
+    width: 100%;
+}
+
+.info_boxes{
+    display: flex;
+    justify-content: space-between;
+    gap:5px;
+}
+
+.box{
+    border: 1px solid #1E3756B5;
+    border-radius: 10px;
+    padding: 10px;
+    width: 33%;
+    text-align: center;
+
+}
+
+.box p {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+
+.box h2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.infoDiv_win, .eligible_text{
+    margin-top: 40px;
+}
+
+.button_box{
+    display: flex;
+    justify-content: center;
+}
+
+
+.margin0{
+    margin-top: 0;
+}
+
+.steptoParticipate{
+    margin-top: 50px;
+}
+
+ol{
+    margin-top: 40px;
+}
+ol li{
+    line-height: 40px;
+}
+
+.ending_left{
+    margin-top: 50px;
+}
+
+.instruction{
+    margin-top: 60px;
+}
+
+.button_container_win{
+    justify-content: center;
+}
+
+
+
+
+@media(max-width:950px){
+    .outer_container{
+        flex-direction: column;
+    }
+
+    .right_win, .left_win{
+        width: 100%;
+    }
+    
+    .win_mainHeading{
+        font-size: 36px;
+    }
+}

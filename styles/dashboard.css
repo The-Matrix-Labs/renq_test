@@ -1,0 +1,156 @@
+.background{
+    background: url("../public/img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.button {
+    position: relative;
+    padding: 15px 20px;
+    background: transparent;
+    color:#fff;
+    border: none;
+    transition: all ease-in-out 0.3s;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .button:hover{
+    background: #00C4F4;
+    border-radius: 50px;
+  }
+
+  .button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50px;
+    border: 5px solid transparent;
+    background: linear-gradient(90deg, #00C4F4 0%, rgba(0, 196, 244, 0) 49.48%, #00C4F4 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) padding-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+  }
+
+.section_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+html{
+    color: #fff;
+}
+
+.button_secondary{
+    background-color: #00C4F4;
+    padding: 15px 20px;
+    color:#fff;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    
+}
+
+.section1{
+    width: 60%;
+    padding-right: 50px;
+    padding-top: 50px;
+}
+.section2_old{
+    background-color: #0B1D33;
+    border-radius: 20px;
+    padding: 20px 80px 20px 40px;
+    width: 400px;
+    margin-left: 30px;
+}
+
+
+
+@media (min-width:1200px){
+
+    .section_padding{
+        width: 60%;
+    }
+    
+}
+
+.titleHeading{
+    position:relative;
+    display: inline-block;
+    margin-left: 25px;
+
+}
+
+.titleHeading::before{
+    content: "";
+    width: 15px;
+    position: absolute;
+    border-radius: 50px;
+    height: 15px;
+    left:-25px;
+    top:4px;
+    background-color: #00C4F4;
+}
+.titleHeading::after{
+    content: "";
+    width: 15px;
+    position: absolute;
+    border-radius: 50px;
+    height: 15px;
+    right:-25px;
+    top:4px;
+    background-color: #00C4F4;
+}
+
+.main_heading{
+    margin-top: 0px;
+}
+
+.innerSection{
+    margin-top: 50px;
+}
+
+
+
+
+@media (max-width:850px) {
+    
+    .section_wrapper{
+        flex-direction: column;
+        height: auto;
+        padding: 50px 0;
+
+    }
+    
+    .section1{
+        width: 100%;
+    }
+
+    .section2_old{
+        width: 100%;
+        margin-top: 50px;
+        margin-left: 0px;
+    }
+
+}
+
+
+@media(max-width:450px){
+.container{
+    width: 70%;
+}
+}

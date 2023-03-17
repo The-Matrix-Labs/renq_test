@@ -1,0 +1,110 @@
+.buybackground{
+    background: url("../public/img/howtobuybackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttons_container{
+    display: flex;
+    gap:50px;
+}
+
+
+.section1_buy{
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.horizontalline{
+    width: 100%;
+}
+
+
+
+
+.section_outer{
+    display: flex;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.heading_buy{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+
+.step_section_1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.final_section_buy{
+    width: 50%;
+}
+
+.cardss{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_main{
+    width: 25%;
+    gap:20px;
+    border-radius: 20px;
+    background-color: #0B1D33;
+    padding: 20px;
+}
+
+.background_change{
+    background: url("../public/img/backgroundChange.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.step_title{
+    font-weight: 700;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+.final_section_buy{
+    margin-top: 80px;
+    padding-bottom: 40px;
+
+}
+
+@media (max-width:863px) {
+    .cardss{
+        flex-direction: column;
+    }
+
+    .final_section_buy{
+       width: 100%;
+    }
+
+    .card_main{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .step_section_1{
+        flex-direction: column;
+    }
+
+    .step_section_2{
+        margin-top: 20px;
+    }
+}
+
+
+@media (max-width:500px) {
+    .container{
+        width: 90%;
+    }
+
+    .buttons_container{
+        gap:20px;
+    }
+}
